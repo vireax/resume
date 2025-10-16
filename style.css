@@ -1,16 +1,26 @@
 body {
-	background:#345;
+	background:#fff;
+	line-height: 1.5em;
+	font-family: var(--fontStack-sansSerif, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji");
 	}
-	
-.wrapper {
-	width:960px;
+.wrapper{	
+	background:#fff
+	}
+.inner {
+	width:800px;
 	margin: 0 auto;
 	padding: 50px;
-	background: #def;
-}
-.header {
+	}
+#header {
+	background:#f6f8fa;
+	border-bottom: 1px solid #ccc;
+	
 	}
 
-.content {
+#content {
 	}
-.footer {}
+	
+#footer {
+	background:#f6f8fa;
+	border-top: 1px solid #ccc;
+	}
